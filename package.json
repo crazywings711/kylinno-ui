@@ -19,7 +19,7 @@
     "url": "https://github.com/crazywings711/kylinno-ui.git"
   },
   "scripts": {
-    "build_lib": "ng build kylinno",
+    "build_lib": "ng build --prod kylinno",
     "copy-readme": "copy .\\README.md .\\dist\\kylinno",
     "npm_pack": "cd dist/kylinno && npm pack",
     "package": "npm run build_lib && npm run copy-readme && npm run npm_pack",

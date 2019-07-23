@@ -1,7 +1,20 @@
 {
   "name": "kylinno-ui",
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "This is Kylinno UI provided by Legalwise",
+  "keywords": [
+    "Angular",
+    "kylinno"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/crazywings711/kylinno-ui.git"
+  },
   "scripts": {
+    "build_lib": "ng build kylinno",
+    "copy-readme": "copy .\\README.md .\\dist\\kylinno",
+    "npm_pack": "cd dist/kylinno && npm pack",
+    "package": "npm run build_lib && npm run copy-files && npm run npm_pack",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",

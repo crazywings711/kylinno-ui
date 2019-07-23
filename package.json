@@ -6,6 +6,14 @@
     "Angular",
     "kylinno"
   ],
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "author": "legalwise",
+  "maintainers": [
+    "Shuangyi Liu"
+  ],
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/crazywings711/kylinno-ui.git"
@@ -14,7 +22,7 @@
     "build_lib": "ng build kylinno",
     "copy-readme": "copy .\\README.md .\\dist\\kylinno",
     "npm_pack": "cd dist/kylinno && npm pack",
-    "package": "npm run build_lib && npm run copy-files && npm run npm_pack",
+    "package": "npm run build_lib && npm run copy-readme && npm run npm_pack",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
@@ -22,7 +30,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
-  "private": true,
+  "private": false,
   "dependencies": {
     "@angular/animations": "~7.0.0",
     "@angular/common": "~7.0.0",

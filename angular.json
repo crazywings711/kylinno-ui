@@ -145,6 +145,11 @@
           "options": {
             "tsConfig": "projects/kylinno/tsconfig.lib.json",
             "project": "projects/kylinno/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "project": "projects/kylinno/ng-package.prod.json"
+            }
           }
         },
         "test": {

@@ -3,13 +3,12 @@ import { KoIfOnDomDirective } from './ko-if-on-dom/ko-if-on-dom.directive';
 
 @NgModule({
     declarations: [
-        KoIfOnDomDirective 
+        KoIfOnDomDirective
     ],
-    imports     : [],
-    exports     : [
-        KoIfOnDomDirective 
+    imports: [],
+    exports: [
+        KoIfOnDomDirective
     ]
 })
-export class KoDirectivesModule
-{
+export class KoDirectivesModule {
 }

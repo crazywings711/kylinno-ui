@@ -8,9 +8,7 @@ const modules = [
 const services = [
 ];
 @NgModule({
-  declarations: [modules],
-  imports: [
-  ],
-  exports: [modules]
+  exports: [...modules],
+  imports: [...modules]
 })
 export class KylinnoModule { }

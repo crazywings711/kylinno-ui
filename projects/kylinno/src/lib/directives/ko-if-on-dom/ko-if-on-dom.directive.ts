@@ -16,9 +16,9 @@ export class KoIfOnDomDirective implements AfterContentChecked
     /**
      * Constructor
      *
-     * @param {ElementRef} _elementRef
-     * @param {TemplateRef<any>} _templateRef
-     * @param {ViewContainerRef} _viewContainerRef
+     * @param  _elementRef
+     * @param  _templateRef
+     * @param   _viewContainerRef
      */
     constructor(
         private _elementRef: ElementRef,
